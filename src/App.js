@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar';
 import NoMatch from './components/NoMatch'
 
 const App = () => (
-  <div>
+  <div className='container'>
     <Sidebar />
     <Switch>
       <Route to exact path='/' component={Home} />

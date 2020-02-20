@@ -6,12 +6,12 @@ import Projects from './Projects';
 import Hobbies from './Hobbies';
 
 const Home = () => (
-  <div>
+  <div className='home'>
     <Cover />
     <About />
+    <Hobbies />
     <Skills />
     <Projects />
-    <Hobbies />
   </div>
 )
 
