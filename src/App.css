@@ -1,6 +1,7 @@
 .container {
   display: flex;
   margin: 0;
+  background-color: lightgray;
 }
 
 .home {
@@ -23,12 +24,37 @@
   position: fixed;
 }
 
-.sidebar img {
+.profile {
   border-radius: 50%;
 }
 
 .sidebar a {
   color: white;
+}
+
+.social-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.social a {
+  margin: 10px;
+  width: 100%;
+}
+
+.social img {
+  width: 100%;
 }
 
 .wrapper {
