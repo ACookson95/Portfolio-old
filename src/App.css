@@ -23,19 +23,27 @@
   position: fixed;
 }
 
-.sidebar p {
+.sidebar img {
+  border-radius: 50%;
+}
+
+.sidebar a {
   color: white;
 }
 
 .wrapper {
   position: relative;
-  height: 600px;
+  max-height: 50vh;
   width: 100%;
+  background-color: black;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+
 }
+
 
 .title {
   position: absolute;
-  top: 50px;
+  top: 25%;
   left: 35px;
   width: 100%;
 }

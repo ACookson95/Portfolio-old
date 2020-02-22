@@ -15,27 +15,27 @@ const Skills = () => (
       <div>Current Skills:</div>
       <div className='skills'>
         <div className='skill'>
-          <img src={ReactIcon} />
+          <img src={ReactIcon} alt='icon' />
           <p>React</p>
         </div>
         <div className='skill'>
-          <img src={RubyIcon} />
+          <img src={RubyIcon} alt='icon' />
           <p>Ruby on Rails</p>
         </div>
         <div className='skill'>
-          <img src={SqlIcon} />
+          <img src={SqlIcon} alt='icon' />
           <p>SQL</p>
         </div>
         <div className='skill'>
-          <img src={HtmlIcon} />
+          <img src={HtmlIcon} alt='icon' />
           <p>HTML</p>
         </div>
         <div className='skill'>
-          <img src={JsIcon} />
+          <img src={JsIcon} alt='icon' />
           <p>Javascript</p>
         </div>
         <div className='skill'>
-          <img src={CssIcon} />
+          <img src={CssIcon} alt='icon' />
           <p>CSS</p>
         </div>
       </div>
@@ -44,15 +44,15 @@ const Skills = () => (
       <div>Skills in Development:</div>
       <div className='skills'>
         <div className='skill'>
-          <img src={NodeIcon} />
+          <img src={NodeIcon} alt='icon' />
           <p>NodeJS</p>
         </div>
         <div className='skill'>
-          <img src={PythonIcon} />
+          <img src={PythonIcon} alt='icon' />
           <p>Python</p>
         </div>
         <div className='skill'>
-          <img src={GoIcon} />
+          <img src={GoIcon} alt='icon' />
           <p>Go</p>
         </div>
       </div>
