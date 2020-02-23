@@ -4,6 +4,7 @@ import GithubIcon from '../images/icons/social/github.svg';
 import InstaIcon from '../images/icons/social/instagram.svg';
 import LinkedinIcon from '../images/icons/social/linkedin.svg';
 import TwitterIcon from '../images/icons/social/twitter.svg';
+import '../css/sidebar.css';
 
 const Sidebar = () => (
   <div className='sidebar'>

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../css/skills.css';
 import ReactIcon from '../../images/icons/devIcons/React.png';
 import HtmlIcon from '../../images/icons/devIcons/HTML.png';
 import JsIcon from '../../images/icons/devIcons/JS.png';

@@ -1,0 +1,44 @@
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+.sidebar a {
+  color: white;
+}
+
+.social-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.social a {
+  margin: 10px;
+  width: 100%;
+}
+
+.social img {
+  width: 100%;
+}

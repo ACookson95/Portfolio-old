@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import '../../App.css';
+import '../../css/cover.css';
 import DownArrow from '../../images/icons/misc/downarrow.svg';
 
 const Cover = () => (
