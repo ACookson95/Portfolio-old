@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
 import '../../App.css';
+import DownArrow from '../../images/icons/misc/downarrow.svg';
 
 const Cover = () => (
-  <div>
+  <div id='home'>
     <div className='wrapper'>
       <ReactPlayer 
         className='background-video'
@@ -15,8 +16,14 @@ const Cover = () => (
         width='100%'
         height='100%'
       />
-      <div className='title'><h1>Hello, I'm Aaron.</h1></div>
+      <div className='title'><h1>Hello, I'm Aaron <br /> Cookson.</h1></div>
     </div>
+    <a href="#about">
+      <div className="next-section">
+        <h3>Learn more about me!</h3>
+        <img src={DownArrow} alt='Down Arrow'></img>
+      </div>
+    </a>
   </div>
 )
 

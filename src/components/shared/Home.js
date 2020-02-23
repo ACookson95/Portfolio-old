@@ -9,9 +9,9 @@ const Home = () => (
   <div className='home'>
     <Cover />
     <About />
-    <Hobbies />
     <Skills />
     <Projects />
+    <Hobbies />
   </div>
 )
 

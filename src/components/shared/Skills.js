@@ -10,7 +10,7 @@ import PythonIcon from '../../images/icons/devIcons/Python.png';
 import GoIcon from '../../images/icons/devIcons/GoLang.png';
 
 const Skills = () => (
-  <div>
+  <div id='skills'>
     <div className='skills-wrapper'>
       <div>Current Skills:</div>
       <div className='skills'>

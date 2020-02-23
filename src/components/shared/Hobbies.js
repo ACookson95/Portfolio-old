@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Hobbies = () => (
-  <div>
+  <div id='hobbies'>
     Hobbies Page
   </div>
 )
