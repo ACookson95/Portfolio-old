@@ -20,7 +20,7 @@ const Cover = () => (
     </div>
     <a href="#about">
       <div className="next-section">
-        <h3>Learn more about me!</h3>
+        <h4>GET TO KNOW ME</h4>
         <img src={DownArrow} alt='Down Arrow'></img>
       </div>
     </a>

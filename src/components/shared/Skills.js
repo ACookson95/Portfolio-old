@@ -11,50 +11,53 @@ import PythonIcon from '../../images/icons/devIcons/Python.png';
 import GoIcon from '../../images/icons/devIcons/GoLang.png';
 
 const Skills = () => (
-  <div id='skills'>
-    <div className='skills-wrapper'>
-      <div>Current Skills:</div>
-      <div className='skills'>
-        <div className='skill'>
-          <img src={ReactIcon} alt='icon' />
-          <p>React</p>
-        </div>
-        <div className='skill'>
-          <img src={RubyIcon} alt='icon' />
-          <p>Ruby on Rails</p>
-        </div>
-        <div className='skill'>
-          <img src={SqlIcon} alt='icon' />
-          <p>SQL</p>
-        </div>
-        <div className='skill'>
-          <img src={HtmlIcon} alt='icon' />
-          <p>HTML</p>
-        </div>
-        <div className='skill'>
-          <img src={JsIcon} alt='icon' />
-          <p>Javascript</p>
-        </div>
-        <div className='skill'>
-          <img src={CssIcon} alt='icon' />
-          <p>CSS</p>
+  <div>
+    <div id='skills' className='header'>SKILLS</div>
+    <div>
+      <div className='skills-wrapper'>
+        <h1>CURRENT SKILLS</h1>
+        <div className='skills'>
+          <div className='skill'>
+            <div className='image'><img src={ReactIcon} alt='icon' /></div>
+            <p>React</p>
+          </div>
+          <div className='skill'>
+            <div className='image'><img src={RubyIcon} alt='icon' /></div>
+            <p>Ruby on Rails</p>
+          </div>
+          <div className='skill'>
+            <div className='image'><img src={SqlIcon} alt='icon' /></div>
+            <p>SQL</p>
+          </div>
+          <div className='skill'>
+            <div className='image'><img src={HtmlIcon} alt='icon' /></div>
+            <p>HTML</p>
+          </div>
+          <div className='skill'>
+            <div className='image'><img src={JsIcon} alt='icon' /></div>
+            <p>Javascript</p>
+          </div>
+          <div className='skill'>
+            <div className='image'><img src={CssIcon} alt='icon' /></div>
+            <p>CSS</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div className='skills-wrapper'>
-      <div>Skills in Development:</div>
-      <div className='skills'>
-        <div className='skill'>
-          <img src={NodeIcon} alt='icon' />
-          <p>NodeJS</p>
-        </div>
-        <div className='skill'>
-          <img src={PythonIcon} alt='icon' />
-          <p>Python</p>
-        </div>
-        <div className='skill'>
-          <img src={GoIcon} alt='icon' />
-          <p>Go</p>
+      <div className='skills-wrapper'>
+        <h1>SKILLS IN DEVELOPMENT</h1>
+        <div className='skills'>
+          <div className='skill'>
+            <div className='image'><img src={NodeIcon} alt='icon' /></div>
+            <p>NodeJS</p>
+          </div>
+          <div className='skill'>
+            <div className='image'><img src={PythonIcon} alt='icon' /></div>
+            <p>Python</p>
+          </div>
+          <div className='skill'>
+            <div className='image'><img src={GoIcon} alt='icon' /></div>
+            <p>Go</p>
+          </div>
         </div>
       </div>
     </div>
