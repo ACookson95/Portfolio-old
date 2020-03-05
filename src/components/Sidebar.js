@@ -4,6 +4,7 @@ import GithubIcon from '../images/icons/social/github.svg';
 import InstaIcon from '../images/icons/social/instagram.svg';
 import LinkedinIcon from '../images/icons/social/linkedin.svg';
 import TwitterIcon from '../images/icons/social/twitter.svg';
+import { Link } from 'react-router-dom';
 import '../css/sidebar.css';
 
 const Sidebar = () => (
@@ -11,13 +12,13 @@ const Sidebar = () => (
     <div>
       <img className='profile' src="https://media-exp1.licdn.com/dms/image/C5603AQHiVUv_t5gdeQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=qzWdRGTeELZb80BDjj7hbWI98H44BWXHgJpcU7LFdq4" alt='profile pic' />
     </div>
-    <a href='#home'>Home</a>
-    <a href='#about'>About</a>
-    <a href='#skills'>Skills</a>
-    <a href='#projects'>Projects</a>
-    <a href='#hobbies'>Hobbies</a>
+    <a href='/#home'>Home</a>
+    <a href='/#about'>About</a>
+    <a href='/#skills'>Skills</a>
+    <a href='/#projects'>Projects</a>
+    <a href='/#hobbies'>Hobbies</a>
     <a>Resume</a>
-    <a>Contact Me</a>
+    <Link to='/contact'>Contact Me</Link>
     <div className='social-wrapper'>
       <a>Follow Me @</a>
       <div className='social'>
