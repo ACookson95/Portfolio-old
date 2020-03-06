@@ -1,14 +1,14 @@
 import React from 'react';
 import '../../css/skills.css';
-import ReactIcon from '../../images/icons/devIcons/React.png';
-import HtmlIcon from '../../images/icons/devIcons/HTML.png';
-import JsIcon from '../../images/icons/devIcons/JS.png';
-import CssIcon from '../../images/icons/devIcons/CSS.png';
-import SqlIcon from '../../images/icons/devIcons/SQL.png';
-import RubyIcon from '../../images/icons/devIcons/Ruby.png';
-import NodeIcon from '../../images/icons/devIcons/NodeJS.png';
-import PythonIcon from '../../images/icons/devIcons/Python.png';
-import GoIcon from '../../images/icons/devIcons/GoLang.png';
+import ReactIcon from '../../images/icons/devIcons/react.svg';
+import HtmlIcon from '../../images/icons/devIcons/html.svg';
+import JsIcon from '../../images/icons/devIcons/js.svg';
+import CssIcon from '../../images/icons/devIcons/css.svg';
+import SqlIcon from '../../images/icons/devIcons/database.svg';
+import RubyIcon from '../../images/icons/devIcons/rails.svg';
+import NodeIcon from '../../images/icons/devIcons/node.svg';
+import PythonIcon from '../../images/icons/devIcons/python.svg';
+import GoIcon from '../../images/icons/devIcons/golang.svg';
 
 const Skills = () => (
   <div>

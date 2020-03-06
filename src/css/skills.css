@@ -1,16 +1,19 @@
 .skills-wrapper {
-  background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 0%,rgb(61, 61, 61) 100%);  padding: 20px;
-  margin: 20px 0;
+  background-color: white;
   text-align: center;
+  padding: 20px 40px;
+}
+
+.skills-wrapper h1 {
+  color: black;
 }
 
 .skills {
   display: flex;
   justify-content: space-around;
-  padding: 40px 10px;
+  padding: 40px 20px;
   border-top: solid lightgray 1px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .skill {
@@ -20,13 +23,15 @@
 }
 
 .skill .image {
-  border: solid lightgray 2px;
-  border-radius: 50%;
   padding: 15px;
   margin: 10px
 }
 
+.image img {
+  width: 100px;
+}
+
 .skill p {
-  color: lightgray;
+  color: black;
   font-size: 20px;
 }

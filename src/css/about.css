@@ -25,7 +25,6 @@
   left: 0;
   transform-origin: bottom right;
   transform: skewY(5deg);
-  margin-top: 5px;
 }
 
 .content-wrapper {

@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Projects = () => (
-  <div id='projects'>
-    Projects Page
+  <div>
+    <div id='projects' className='header'>PROJECTS</div>
   </div>
 )
 

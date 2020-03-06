@@ -20,7 +20,7 @@ const Sidebar = () => (
     <a>Resume</a>
     <Link to='/contact'>Contact Me</Link>
     <div className='social-wrapper'>
-      <a>Follow Me @</a>
+      <p>Follow Me @</p>
       <div className='social'>
         <a href="https://www.github.com/ACookson95" rel="noopener noreferrer" target="_blank"><img src={GithubIcon} alt="social"/></a>
         <a href="https://www.linkedin.com/in/aaron-cookson/" rel="noopener noreferrer" target="_blank"><img src={LinkedinIcon} alt="social"/></a>

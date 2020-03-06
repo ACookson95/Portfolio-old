@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../css/about.css'
+import '../../css/about.css';
+import { Link } from 'react-router-dom';
 
 const About = () => (
   <div>
@@ -11,7 +12,7 @@ const About = () => (
           I find emmence satisfaction with finding issues and then creating innovative solutions to those problems.</h3>
         <div className='contact-wrapper'>
           <h1>Let me create something for you.</h1>
-          <a><div className='button'>Contact Me</div></a>
+          <Link to='/contact'><div className='button'>Contact Me</div></Link>
         </div>
       </div>
   </div>
